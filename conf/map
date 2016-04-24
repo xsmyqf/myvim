@@ -1,0 +1,23 @@
+"set winaltkeys=no
+noremap <CR><space> <Esc>
+inoremap <CR><space> <Esc>
+let mapleader="q"
+map - dd
+map <space> viw
+ino <c-d> ddi
+vn <c-c> "+y
+nn <c-v> "+p
+vn <c-x> "+d
+nn <leader>s :w
+nn <leader>q :qa!<CR>
+nn <leader>f :wq!<CR>
+nn <F5> :source $MYVIMRC
+nn <c-k> :MBEbp<CR>
+let g:NERDTree_title="[NERDTree]"  
+nmap wm :WMToggle<CR>  
+noremap <C-j>   :MBEbn<CR>
+"map <F4> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR><CR>  
+"map <F3> : Tlist<CR>  ""按下F3就可以呼出了  
+"nnoremap <F4>fa :call CscopeFindInteractive(expand('<cword>'))<CR>
+"nnoremap <F5>l :call ToggleLocationList()<CR>
+nn <F3> :NERDTreeToggle<CR>

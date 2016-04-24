@@ -1,0 +1,20 @@
+syntax on
+set autoindent
+set smartindent
+set tabstop=4
+set number
+"set paste
+set mouse=v
+"set mouse=a
+set laststatus=2
+set t_Co=256
+set foldmethod=syntax
+set foldcolumn=2
+let g:html_dynamic_folds=0
+set nowrap
+
+
+set backup
+set directory=~/.vim/backup/temp
+set backupdir=~/.vim/backup/backup
+set backupext=.vibak

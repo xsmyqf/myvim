@@ -1,0 +1,18 @@
+let g:winManagerWindowLayout="NERDTree|TagList"  
+  
+function! NERDTree_Start()  
+    exec 'NERDTree'  
+endfunction  
+  
+function! NERDTree_IsValid()  
+    return 1  
+endfunction  
+  
+
+"let g:session_autosave = 'no'
+let NERDTreeWinPos='left'
+
+
+"autocmd VimEnter * NERDTree
+
+
